@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bearFace {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .earL {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: white;
+            border: 10px solid black;
+            position: absolute;
+            left: 10%;
+            top: 0;
+        }
+
+        .earR {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: white;
+            border: 10px solid black;
+            position: absolute;
+            right: 10%;
+            top: 0;
+        }
+
+        .eyesL {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 10px solid white;
+            position: absolute;
+            left: 20%;
+            top: 20%;
+        }
+
+        .eyesR {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 10px solid white;
+            position: absolute;
+            right: 20%;
+            top: 20%;
+        }
+
+        .redFaceL {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: red;
+            position: absolute;
+            left: -5%;
+            top: 40%;
+        }
+
+        .redFaceR {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: red;
+            position: absolute;
+            right: -5%;
+            top: 40%;
+        }
+
+        .whiteBeard {
+            width: 130px;
+            height: 90px;
+            border-radius: 50% 50%;
+            background: white;
+            position: absolute;
+            left: 28%;
+            top: 40%;
+        }
+
+        .whiteBeard::before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            border-radius: 50% 50%;
+            background: black;
+            left: 38%;
+            top: 15%;
+        }
+
+        .whiteBeard::after {
+            content: "";
+            position: absolute;
+            width: 80px;
+            height: 30px;
+            border-radius: 50% 50%;
+            background: black;
+            left: 20%;
+            top: 50%;
+        }
+
+        .VmarkL {
+            width: 25px;
+            height: 35px;
+            background: white;
+            position: absolute;
+            left: 38%;
+            top: 75%;
+            transform: skew(50deg, 0);
+        }
+
+        .VmarkR {
+            width: 25px;
+            height: 35px;
+            background: white;
+            position: absolute;
+            right: 38%;
+            top: 75%;
+            transform: skew(-50deg, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bearFace">
+        <div class="earL"></div>
+        <div class="earR"></div>
+        <div class="eyesL"></div>
+        <div class="eyesR"></div>
+        <div class="redFaceL"></div>
+        <div class="redFaceR"></div>
+        <div class="whiteBeard"></div>
+        <div class="VmarkL"></div>
+        <div class="VmarkR"></div>
+    </div>
+
+
+</body>
+
+</html>
